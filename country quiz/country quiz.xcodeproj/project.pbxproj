@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD486BDC220FA7C1000E1229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486BDB220FA7C1000E1229 /* AppDelegate.swift */; };
+		FD486BDE220FA7C1000E1229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486BDD220FA7C1000E1229 /* ViewController.swift */; };
+		FD486BE1220FA7C1000E1229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD486BDF220FA7C1000E1229 /* Main.storyboard */; };
+		FD486BE3220FA7C2000E1229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD486BE2220FA7C2000E1229 /* Assets.xcassets */; };
+		FD486BE6220FA7C2000E1229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD486BE4220FA7C2000E1229 /* LaunchScreen.storyboard */; };
+		FD486BF0220FA81A000E1229 /* CountryBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486BED220FA819000E1229 /* CountryBank.swift */; };
+		FD486BF1220FA81A000E1229 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486BEE220FA819000E1229 /* Question.swift */; };
+		FD486BF2220FA81A000E1229 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486BEF220FA81A000E1229 /* QuestionBank.swift */; };
+		FD486BF4220FA8EF000E1229 /* QuizOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486BF3220FA8EF000E1229 /* QuizOne.swift */; };
+		FD486BF6220FA904000E1229 /* QuizTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486BF5220FA904000E1229 /* QuizTwo.swift */; };
+		FD486BF8220FA916000E1229 /* QuizThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486BF7220FA916000E1229 /* QuizThree.swift */; };
+		FD486BFC220FBDAE000E1229 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FD486BFA220FBDAE000E1229 /* ProgressHUD.m */; };
+		FD486BFF220FC0AB000E1229 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD486BFE220FC0AB000E1229 /* ProgressHUD.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD486BD8220FA7C1000E1229 /* country quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "country quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD486BDB220FA7C1000E1229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD486BDD220FA7C1000E1229 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD486BE0220FA7C1000E1229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD486BE2220FA7C2000E1229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD486BE5220FA7C2000E1229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD486BE7220FA7C2000E1229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD486BED220FA819000E1229 /* CountryBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryBank.swift; sourceTree = "<group>"; };
+		FD486BEE220FA819000E1229 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		FD486BEF220FA81A000E1229 /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		FD486BF3220FA8EF000E1229 /* QuizOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizOne.swift; sourceTree = "<group>"; };
+		FD486BF5220FA904000E1229 /* QuizTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTwo.swift; sourceTree = "<group>"; };
+		FD486BF7220FA916000E1229 /* QuizThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizThree.swift; sourceTree = "<group>"; };
+		FD486BFA220FBDAE000E1229 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		FD486BFB220FBDAE000E1229 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		FD486BFD220FBFB0000E1229 /* country quiz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "country quiz-Bridging-Header.h"; sourceTree = "<group>"; };
+		FD486BFE220FC0AB000E1229 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD486BD5220FA7C1000E1229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD486BCF220FA7C1000E1229 = {
+			isa = PBXGroup;
+			children = (
+				FD486BDA220FA7C1000E1229 /* country quiz */,
+				FD486BD9220FA7C1000E1229 /* Products */,
+				FD486BEE220FA819000E1229 /* Question.swift */,
+				FD486BEF220FA81A000E1229 /* QuestionBank.swift */,
+				FD486BED220FA819000E1229 /* CountryBank.swift */,
+				FD486BFB220FBDAE000E1229 /* ProgressHUD.h */,
+				FD486BFA220FBDAE000E1229 /* ProgressHUD.m */,
+				FD486BFD220FBFB0000E1229 /* country quiz-Bridging-Header.h */,
+				FD486BFE220FC0AB000E1229 /* ProgressHUD.bundle */,
+			);
+			sourceTree = "<group>";
+		};
+		FD486BD9220FA7C1000E1229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD486BD8220FA7C1000E1229 /* country quiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD486BDA220FA7C1000E1229 /* country quiz */ = {
+			isa = PBXGroup;
+			children = (
+				FD486BDB220FA7C1000E1229 /* AppDelegate.swift */,
+				FD486BDD220FA7C1000E1229 /* ViewController.swift */,
+				FD486BDF220FA7C1000E1229 /* Main.storyboard */,
+				FD486BF3220FA8EF000E1229 /* QuizOne.swift */,
+				FD486BF5220FA904000E1229 /* QuizTwo.swift */,
+				FD486BF7220FA916000E1229 /* QuizThree.swift */,
+				FD486BE2220FA7C2000E1229 /* Assets.xcassets */,
+				FD486BE4220FA7C2000E1229 /* LaunchScreen.storyboard */,
+				FD486BE7220FA7C2000E1229 /* Info.plist */,
+			);
+			path = "country quiz";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD486BD7220FA7C1000E1229 /* country quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD486BEA220FA7C2000E1229 /* Build configuration list for PBXNativeTarget "country quiz" */;
+			buildPhases = (
+				FD486BD4220FA7C1000E1229 /* Sources */,
+				FD486BD5220FA7C1000E1229 /* Frameworks */,
+				FD486BD6220FA7C1000E1229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "country quiz";
+			productName = "country quiz";
+			productReference = FD486BD8220FA7C1000E1229 /* country quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD486BD0220FA7C1000E1229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jorge Sanchez";
+				TargetAttributes = {
+					FD486BD7220FA7C1000E1229 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = FD486BD3220FA7C1000E1229 /* Build configuration list for PBXProject "country quiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD486BCF220FA7C1000E1229;
+			productRefGroup = FD486BD9220FA7C1000E1229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD486BD7220FA7C1000E1229 /* country quiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD486BD6220FA7C1000E1229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD486BFF220FC0AB000E1229 /* ProgressHUD.bundle in Resources */,
+				FD486BE6220FA7C2000E1229 /* LaunchScreen.storyboard in Resources */,
+				FD486BE3220FA7C2000E1229 /* Assets.xcassets in Resources */,
+				FD486BE1220FA7C1000E1229 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD486BD4220FA7C1000E1229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD486BFC220FBDAE000E1229 /* ProgressHUD.m in Sources */,
+				FD486BF6220FA904000E1229 /* QuizTwo.swift in Sources */,
+				FD486BDE220FA7C1000E1229 /* ViewController.swift in Sources */,
+				FD486BF1220FA81A000E1229 /* Question.swift in Sources */,
+				FD486BF8220FA916000E1229 /* QuizThree.swift in Sources */,
+				FD486BDC220FA7C1000E1229 /* AppDelegate.swift in Sources */,
+				FD486BF2220FA81A000E1229 /* QuestionBank.swift in Sources */,
+				FD486BF0220FA81A000E1229 /* CountryBank.swift in Sources */,
+				FD486BF4220FA8EF000E1229 /* QuizOne.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD486BDF220FA7C1000E1229 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD486BE0220FA7C1000E1229 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD486BE4220FA7C2000E1229 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD486BE5220FA7C2000E1229 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD486BE8220FA7C2000E1229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD486BE9220FA7C2000E1229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD486BEB220FA7C2000E1229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "country quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jorgesanchez.country-quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "country quiz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD486BEC220FA7C2000E1229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "country quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jorgesanchez.country-quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "country quiz-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD486BD3220FA7C1000E1229 /* Build configuration list for PBXProject "country quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD486BE8220FA7C2000E1229 /* Debug */,
+				FD486BE9220FA7C2000E1229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD486BEA220FA7C2000E1229 /* Build configuration list for PBXNativeTarget "country quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD486BEB220FA7C2000E1229 /* Debug */,
+				FD486BEC220FA7C2000E1229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD486BD0220FA7C1000E1229 /* Project object */;
+}
